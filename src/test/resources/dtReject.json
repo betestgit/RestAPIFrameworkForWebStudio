@@ -1,0 +1,19 @@
+{
+	"request": {
+		"data": {
+			"worklist": [
+				{
+					"revisionId": "10000",
+					"worklistItem": [
+   					     {
+							"artifactPath": "/Virtual_RF/Applicant_Simple_Test",
+							"artifactType": "rulefunctionimpl",
+							"managedProjectName": "CreditCardApplication",
+							  "reviewStatus": "Reject"
+						}
+					]
+				}
+			]
+		}
+	}
+}

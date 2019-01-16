@@ -1,0 +1,139 @@
+{
+  "request": {
+    "data": {
+      "project": [{
+        "name": "CreditCardApplication",
+        "artifactItem": [{
+          "artifactPath": "/Virtual_RF/Applicant",
+          "artifactType": "rulefunctionimpl",
+          "fileExtension": "rulefunctionimpl",
+          "baseArtifactPath": "/Virtual_RF/Applicant_VirtualRuleFunction.rulefunction"
+        },
+        {
+          "artifactPath": "/Virtual_RF/Applicant_Simple",
+          "artifactType": "rulefunctionimpl",
+          "fileExtension": "rulefunctionimpl",
+          "baseArtifactPath": "/Virtual_RF/Applicant_VirtualRuleFunction.rulefunction"
+        },
+		{
+          "artifactPath": "/Channels/HTTP",
+          "artifactType": "channel",
+          "fileExtension": "channel"          
+        },
+		{
+          "artifactPath": "/Concepts/Applicant",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Concepts/ApplicantNumber",
+          "artifactType": "scorecard",
+          "fileExtension": "scorecard"          
+        },
+		{
+          "artifactPath": "/Concepts/BankUser",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Concepts/Card",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Concepts/CreditCard",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Concepts/CreditCardApplication",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Concepts/Person",
+          "artifactType": "concept",
+          "fileExtension": "concept"          
+        },
+		{
+          "artifactPath": "/Domains/CreditTypes",
+          "artifactType": "domain",
+          "fileExtension": "domain"          
+        },
+		{
+          "artifactPath": "/Events/ApplicationReceived",
+          "artifactType": "event",
+          "fileExtension": "event"          
+        },
+		{
+          "artifactPath": "/Events/ProcessApplication",
+          "artifactType": "event",
+          "fileExtension": "event"          
+        },
+		{
+          "artifactPath": "/Rules/RuleSet/Applicant_Rule",
+          "artifactType": "rule",
+          "fileExtension": "rule"          
+        },
+		{
+          "artifactPath": "/Rules/RuleSet/ProcessApplication_Rule",
+          "artifactType": "rule",
+          "fileExtension": "rule"          
+        },
+		{
+          "artifactPath": "/Rule_Functions/Callback",
+          "artifactType": "rulefunction",
+          "fileExtension": "rulefunction"          
+        },
+		{
+          "artifactPath": "/Rule_Functions/Startup_Rulefunction",
+          "artifactType": "rulefunction",
+          "fileExtension": "rulefunction"          
+        },
+		{
+          "artifactPath": "/Rule_Templates/Applicant_PreScreen",
+          "artifactType": "ruletemplate",
+          "fileExtension": "ruletemplate"          
+        },
+		{
+          "artifactPath": "/Rule_Templates/PreScreenTemplateView",
+          "artifactType": "ruletemplateview",
+          "fileExtension": "ruletemplateview"          
+        },
+		{
+          "artifactPath": "/Rule_Templates/SpecialOffers",
+          "artifactType": "ruletemplate",
+          "fileExtension": "ruletemplate"          
+        },
+		{
+          "artifactPath": "/Virtual_RF/Applicant_VirtualRuleFunction",
+          "artifactType": "rulefunction",
+          "fileExtension": "rulefunction"          
+        },
+		{
+          "artifactPath": "/Virtual_RF/BankUser_VirtualRuleFunction",
+          "artifactType": "rulefunction",
+          "fileExtension": "rulefunction"          
+        },
+		{
+          "artifactPath": "/Virtual_RF/BU",
+          "artifactType": "rulefunctionimpl",
+          "fileExtension": "rulefunctionimpl",
+          "baseArtifactPath": "/Virtual_RF/BankUser_VirtualRuleFunction.rulefunction"
+        },
+		{
+          "artifactPath": "/Virtual_RF/ProcessApplication",
+          "artifactType": "rulefunctionimpl",
+          "fileExtension": "rulefunctionimpl",
+          "baseArtifactPath": "/Virtual_RF/ProcessApplication_VirtualRuleFunction.rulefunction"
+        },
+		{
+          "artifactPath": "/Virtual_RF/ProcessApplication_VirtualRuleFunction",
+          "artifactType": "rulefunction",
+          "fileExtension": "rulefunction"          
+        }
+		]
+      }]
+    }
+  }
+}

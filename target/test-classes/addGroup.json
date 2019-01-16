@@ -1,0 +1,14 @@
+{
+	"request": {
+		"data": {
+			"userGroup": {
+				"name": "testGroup",
+				"groupItem": {
+					"artifact": [
+						"CreditCardApplication/Virtual_RF/Applicant_Simple.rulefunctionimpl"
+					]
+				}
+			}
+		}
+	}
+}

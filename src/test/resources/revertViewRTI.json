@@ -1,0 +1,13 @@
+{
+  "request": {
+    "data": {
+      "project": [{
+        "name": "CreditCardApplication",
+        "artifactItem": [{
+          "artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+          "artifactType": "ruletemplateinstance"
+        }]
+      }]
+    }
+  }
+}

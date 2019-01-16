@@ -1,0 +1,19 @@
+{
+	"request": {
+		"data": {
+			"worklist": [
+				{
+					"revisionId": "10002",
+					"worklistItem": [
+						 {
+         				   "artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+				            "artifactType": "ruletemplateinstance",
+				            "managedProjectName": "CreditCardApplication",
+				            "reviewStatus": "Approve"
+   					     }
+					]
+				}
+			]
+		}
+	}
+}

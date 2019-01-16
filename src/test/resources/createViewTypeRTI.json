@@ -1,0 +1,23 @@
+{
+  "request": {
+    "data": {
+      "project": [
+        {
+          "name": "CreditCardApplication",
+          "artifactItem": [
+            {
+              "artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+              "artifactType": "ruletemplateinstance",
+              "fileExtension": "ruletemplateinstance",
+              "implementsPath": "/Rule_Templates/Applicant_PreScreen",
+              "isSyncMerge": "false",
+              "artifactContent": "{\"view\":{\"bindingInfo\":[{\"bindingId\":\"minimumIncome\",\"value\":\"1000\"},{\"bindingId\":\"minimumAge\",\"value\":\"20\"},{\"bindingId\":\"creditType\",\"value\":\"Revolving\"}]}}",
+              "description": "",
+              "rulePriority": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

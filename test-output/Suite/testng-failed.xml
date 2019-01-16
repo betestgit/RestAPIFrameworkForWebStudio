@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Create group and delete the same group(failed)">
+    <classes>
+      <class name="com.tibco.be.rms.testcases.GroupTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="cleanup"/>
+          <include name="loadProperties"/>
+          <include name="setUp"/>
+          <include name="fetchGroupArtifacts"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.tibco.be.rms.testcases.GroupTest -->
+    </classes>
+  </test> <!-- Create group and delete the same group(failed) -->
+</suite> <!-- Failed suite [Suite] -->

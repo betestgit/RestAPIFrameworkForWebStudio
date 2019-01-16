@@ -1,0 +1,26 @@
+{
+  "request": {
+    "data": {
+      "notificationPreference": {
+        "notificationPreferenceItem": {
+          "emailPreference": [
+            {
+              "project": "CreditCardApplication",
+              "actions": "commit,approve,reject,deploy",
+              "emailIds": "pnawal@tibco.com,athakare@tibco.com"
+            },
+            {
+              "project": "OrderManagement",
+              "actions": "commit,approve",
+              "emailIds": "vajbe@tibco.com"
+            },
+            {
+              "project": "OverdraftNotifications",
+              "actions": "commit"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

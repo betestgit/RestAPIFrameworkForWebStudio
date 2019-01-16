@@ -1,0 +1,18 @@
+{
+  "request": {
+    "data": {
+      "deploymentConfig": {
+        "deploymentConfigItem": {
+          "host": "localhost",
+          "port": 8090,
+          "name": "AutomationQA",
+          "enabled": true,
+          "clusterName": "CreditCardApplication",
+          "agentName": "inference-class1",
+          "inMemory": false,
+          "projectName": "CreditCardApplication"
+        }
+      }
+    }
+  }
+}

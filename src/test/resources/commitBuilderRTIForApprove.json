@@ -1,0 +1,20 @@
+{
+	"request": {
+		"data": {
+			"commitComments": "added builder type RTI",
+			"project": [
+				{
+					"name": "CreditCardApplication",
+					"artifactItem": [
+						{
+							"artifactPath": "/Rule_Templates/SpecialOffersRTI",
+							"artifactType": "ruletemplateinstance",
+							"fileExtension": "ruletemplateinstance",
+							"baseArtifactPath": ""
+						}
+					]
+				}
+			]
+		}
+	}
+}

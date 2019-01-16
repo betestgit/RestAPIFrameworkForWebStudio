@@ -1,0 +1,18 @@
+{
+  "request": {
+    "data": {
+      "worklist": {
+        "revisions": {
+          "revisionId": [
+            "10000"
+          ]
+        },
+        "roles": {
+          "role": [
+            "Technical-User"
+          ]
+        }
+      }
+    }
+  }
+}

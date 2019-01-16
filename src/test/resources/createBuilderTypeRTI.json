@@ -1,0 +1,23 @@
+{
+  "request": {
+    "data": {
+      "project": [
+        {
+          "name": "CreditCardApplication",
+          "artifactItem": [
+            {
+              "artifactPath": "/Rule_Templates/SpecialOffersRTI",
+              "artifactType": "ruletemplateinstance",
+              "fileExtension": "ruletemplateinstance",
+              "implementsPath": "/Rule_Templates/SpecialOffers",
+              "isSyncMerge": "false",
+              "artifactContent": "{\"builder\":{\"conditions\":{\"filter\":[{\"filter\":[{\"link\":[{\"name\":\"applicant\",\"type\":\"/Concepts/Applicant.concept\"},{\"name\":\"Age\",\"type\":\"int\"}],\"filterId\":\"1526378675637689070\",\"operator\":\"greater than or equal to\",\"value\":{\"simple\":\"25\"}},{\"link\":[{\"name\":\"applicant\",\"type\":\"/Concepts/Applicant.concept\"},{\"name\":\"Name\",\"type\":\"String\"}],\"filterId\":\"1526378711952.4382\",\"operator\":\"equals\",\"value\":{\"simple\":\"John Doe\"}}],\"filterId\":\"152637867563757691\",\"matchType\":\"Match Any\"}]},\"commands\":{\"commandInfo\":[{\"commandAlias\":\"card\",\"type\":\"/Concepts/CreditCard.concept\",\"actionType\":\"modify\",\"filter\":[{\"link\":[{\"name\":\"InterestRate\",\"type\":\"double\"}],\"filterId\":\"1526378768293.4253\",\"operator\":\"set to\",\"value\":{\"simple\":\"11.75\"}},{\"link\":[{\"name\":\"DefaultRate\",\"type\":\"double\"}],\"filterId\":\"1526378778045.1663\",\"operator\":\"set to\",\"value\":{\"simple\":\"12.00\"}}]}]}}}",
+              "description": "",
+              "rulePriority": 5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

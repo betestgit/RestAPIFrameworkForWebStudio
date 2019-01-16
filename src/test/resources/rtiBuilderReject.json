@@ -1,0 +1,19 @@
+{
+	"request": {
+		"data": {
+			"worklist": [
+				{
+					"revisionId": "10001",
+					"worklistItem": [
+						{
+							"artifactPath": "/Rule_Templates/SpecialOffersRTI",
+							"artifactType": "ruletemplateinstance",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						}
+					]
+				}
+			]
+		}
+	}
+}

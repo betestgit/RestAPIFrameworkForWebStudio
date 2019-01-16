@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+     <test name="Login to Webstudio using jdoe, checkout and logout">
+	    <classes> 
+		  <class name="com.tests.Checkout2"/>
+	    </classes>
+	</test>
+	 <test name="Checkout">
+	    <classes> 
+		  <class name="com.tests.Checkout"/>
+	    </classes>
+	</test>
+  
+	<test name="CreateDT">
+	    <classes>      
+		  <class name="com.tests.CreateDT"/>
+	    </classes>
+	</test>
+
+	<test name="CreateRTI">
+	    <classes>      
+		  <class name="com.tests.CreateRTIs"/>
+	    </classes>
+	</test>
+	
+	<test name="Validate">
+	    <classes>           
+		  <class name="com.tests.ValidateArtifacts"/>
+	    </classes>
+	</test>
+  
+	<test name="Commit">
+	    <classes>      
+		  <class name="com.tests.CommitArtifacts"/>
+	    </classes>
+	</test>
+  
+	<test name="Approve">
+	    <classes>           
+		  <class name="com.tests.ApproveArtifacts"/>
+	    </classes>
+	</test>
+	
+	<test name="Deploy">
+	    <classes>           
+		  <class name="com.tests.DeployArtifacts"/>
+	    </classes>
+	</test>
+
+	<test name="Revert">
+	    <classes>           
+		  <class name="com.tests.Revert"/>
+	    </classes>
+	</test>
+		
+	<test name="Lock-Unlock test">
+	    <classes>           
+		  <class name="com.tests.LockUnlockArtifacts"/>
+	    </classes>
+	</test>
+	
+	<test name="Rename DT and RTIs">
+	    <classes>           
+		  <class name="com.tests.RenameArtifacts"/>
+	    </classes>
+	</test>
+		 
+	<test name="Reject renamed artifacts(DT,RTI)">
+	    <classes>           
+		  <class name="com.tests.RejectArtifacts"/>
+	    </classes>
+	</test>
+	
+	<test name="Delete renamed artifacts(DT,RTI)">
+	    <classes>           
+		  <class name="com.tests.DeleteArtifacts"/>
+	    </classes>
+	</test>
+	
+   <!-- Test -->
+</suite> <!-- Suite -->

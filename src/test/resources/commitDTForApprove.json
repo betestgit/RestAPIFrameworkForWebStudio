@@ -1,0 +1,20 @@
+{
+	"request": {
+		"data": {
+			"commitComments": "added",
+			"project": [
+				{
+					"name": "CreditCardApplication",
+					"artifactItem": [					
+						{
+							"artifactPath": "/Virtual_RF/Applicant_Simple_Test",
+							"artifactType": "rulefunctionimpl",
+							"fileExtension": "rulefunctionimpl",
+							"baseArtifactPath": ""
+						}
+					]
+				}
+			]
+		}
+	}
+}

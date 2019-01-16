@@ -1,0 +1,13 @@
+{
+	"request": {
+		"data": {
+			"userPreference": {
+				"userPreferenceItem": {
+					"portalColumns": "5",
+					"favoriteArtifactLimit": "21",
+					"recentlyOpenedArtifactLimit": "15"
+				}
+			}
+		}
+	}
+}

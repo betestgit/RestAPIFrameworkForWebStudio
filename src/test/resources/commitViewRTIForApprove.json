@@ -1,0 +1,21 @@
+{
+	"request": {
+		"data": {
+			"commitComments": "added a new view based RTI",
+			"project": [
+				{
+					"name": "CreditCardApplication",
+					"artifactItem": [
+												
+						{
+							"artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+							"artifactType": "ruletemplateinstance",
+							"fileExtension": "ruletemplateinstance",
+							"baseArtifactPath": ""
+						}
+					]
+				}
+			]
+		}
+	}
+}

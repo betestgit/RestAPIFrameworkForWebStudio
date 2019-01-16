@@ -1,0 +1,49 @@
+{
+	"request": {
+		"data": {
+			"worklist": [
+				{
+					"revisionId": "10001",
+					"worklistItem": [
+						{
+							"artifactPath": "/Rule_Templates/SpecialOffersRTI",
+							"artifactType": "ruletemplateinstance",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						},
+						{
+							"artifactPath": "/Rule_Templates/SpecialOffersRTI_Rename",
+							"artifactType": "ruletemplateinstance",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						},
+						{
+							"artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+							"artifactType": "ruletemplateinstance",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						},
+						{
+							"artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI_Rename",
+							"artifactType": "ruletemplateinstance",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						},
+						{
+							"artifactPath": "/Virtual_RF/Applicant_Simple_Rename",
+							"artifactType": "rulefunctionimpl",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						},
+						{
+							"artifactPath": "/Virtual_RF/Applicant_Simple_Test",
+							"artifactType": "rulefunctionimpl",
+							"managedProjectName": "CreditCardApplication",
+							"reviewStatus": "Reject"
+						}
+					]
+				}
+			]
+		}
+	}
+}

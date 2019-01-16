@@ -1,0 +1,34 @@
+{
+	"request": {
+		"data": {
+			"commitComments": "Commit created artifacts",
+			"project": [
+				{
+					"name": "CreditCardApplication",
+					"artifactItem": [
+						{
+							"artifactPath": "/Rule_Templates/SpecialOffersRTI",
+							"artifactType": "ruletemplateinstance",
+							"fileExtension": "ruletemplateinstance",
+							"baseArtifactPath": ""
+						},
+						
+						{
+							"artifactPath": "/Rule_Templates/Applicant_Prescreen_RTI",
+							"artifactType": "ruletemplateinstance",
+							"fileExtension": "ruletemplateinstance",
+							"baseArtifactPath": ""
+						},
+						
+						{
+							"artifactPath": "/Virtual_RF/Applicant_Simple_Test",
+							"artifactType": "rulefunctionimpl",
+							"fileExtension": "rulefunctionimpl",
+							"baseArtifactPath": ""
+						}
+					]
+				}
+			]
+		}
+	}
+}

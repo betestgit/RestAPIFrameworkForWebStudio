@@ -1,0 +1,20 @@
+{
+  "request": {
+    "data": {
+      "project": [
+        {
+          "name": "CreditCardApplication",
+          "artifactItem": [
+            {
+              "artifactPath": "/Virtual_RF/BU",
+              "artifactType": "rulefunctionimpl",
+              "fileExtension": "rulefunctionimpl",
+              "baseArtifactPath": "",
+              "lockRequestor": "admin"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
